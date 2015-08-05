@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32C8A6DF1B72209700C9B285 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C8A6DE1B72209700C9B285 /* main.m */; };
+		32C8A6E21B72209700C9B285 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C8A6E11B72209700C9B285 /* AppDelegate.m */; };
+		32C8A6E41B72209700C9B285 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32C8A6E31B72209700C9B285 /* Images.xcassets */; };
+		32C8A6E71B72209700C9B285 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32C8A6E51B72209700C9B285 /* LaunchScreen.xib */; };
+		32C8A6F31B72209700C9B285 /* Demo___KTJNightVersionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C8A6F21B72209700C9B285 /* Demo___KTJNightVersionTests.m */; };
+		32C8A7011B72213900C9B285 /* UIView+KTJNightVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C8A7001B72213900C9B285 /* UIView+KTJNightVersion.m */; };
+		32C8A7041B72221600C9B285 /* KTJNightVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C8A7031B72221600C9B285 /* KTJNightVersion.m */; };
+		32E99BD81B72470400A35C46 /* UIViewController+KTJNightVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E99BD71B72470400A35C46 /* UIViewController+KTJNightVersion.m */; };
+		32E99BDB1B724B3900A35C46 /* UIBarButtonItem+KTJNightVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E99BDA1B724B3900A35C46 /* UIBarButtonItem+KTJNightVersion.m */; };
+		32E99BDE1B724F4C00A35C46 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E99BDD1B724F4C00A35C46 /* FirstViewController.m */; };
+		32E99BE21B72795400A35C46 /* UINavigationBar+KTJNightVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E99BE11B72795400A35C46 /* UINavigationBar+KTJNightVersion.m */; };
+		32E99BE51B727CED00A35C46 /* UILabel+KTJNightVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E99BE41B727CED00A35C46 /* UILabel+KTJNightVersion.m */; };
+		32E99BE81B727EEF00A35C46 /* UIButton+KTJNightVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E99BE71B727EEF00A35C46 /* UIButton+KTJNightVersion.m */; };
+		32E99BEB1B72819400A35C46 /* UITableView+KTJNightVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E99BEA1B72819400A35C46 /* UITableView+KTJNightVersion.m */; };
+		32E99BEE1B72854B00A35C46 /* UIImageView+KTJNightVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E99BED1B72854B00A35C46 /* UIImageView+KTJNightVersion.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32C8A6ED1B72209700C9B285 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32C8A6D11B72209700C9B285 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32C8A6D81B72209700C9B285;
+			remoteInfo = "Demo - KTJNightVersion";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32C8A6D91B72209700C9B285 /* Demo - KTJNightVersion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Demo - KTJNightVersion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32C8A6DD1B72209700C9B285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32C8A6DE1B72209700C9B285 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32C8A6E01B72209700C9B285 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		32C8A6E11B72209700C9B285 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		32C8A6E31B72209700C9B285 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		32C8A6E61B72209700C9B285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		32C8A6EC1B72209700C9B285 /* Demo - KTJNightVersionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Demo - KTJNightVersionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32C8A6F11B72209700C9B285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32C8A6F21B72209700C9B285 /* Demo___KTJNightVersionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Demo___KTJNightVersionTests.m"; sourceTree = "<group>"; };
+		32C8A6FF1B72213900C9B285 /* UIView+KTJNightVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+KTJNightVersion.h"; sourceTree = "<group>"; };
+		32C8A7001B72213900C9B285 /* UIView+KTJNightVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+KTJNightVersion.m"; sourceTree = "<group>"; };
+		32C8A7021B72221600C9B285 /* KTJNightVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTJNightVersion.h; sourceTree = "<group>"; };
+		32C8A7031B72221600C9B285 /* KTJNightVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTJNightVersion.m; sourceTree = "<group>"; };
+		32E99BD61B72470400A35C46 /* UIViewController+KTJNightVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+KTJNightVersion.h"; sourceTree = "<group>"; };
+		32E99BD71B72470400A35C46 /* UIViewController+KTJNightVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+KTJNightVersion.m"; sourceTree = "<group>"; };
+		32E99BD91B724B3900A35C46 /* UIBarButtonItem+KTJNightVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+KTJNightVersion.h"; sourceTree = "<group>"; };
+		32E99BDA1B724B3900A35C46 /* UIBarButtonItem+KTJNightVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+KTJNightVersion.m"; sourceTree = "<group>"; };
+		32E99BDC1B724F4C00A35C46 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		32E99BDD1B724F4C00A35C46 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		32E99BDF1B72513400A35C46 /* KTJNightVersionHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTJNightVersionHelper.h; sourceTree = "<group>"; };
+		32E99BE01B72795400A35C46 /* UINavigationBar+KTJNightVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+KTJNightVersion.h"; sourceTree = "<group>"; };
+		32E99BE11B72795400A35C46 /* UINavigationBar+KTJNightVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+KTJNightVersion.m"; sourceTree = "<group>"; };
+		32E99BE31B727CED00A35C46 /* UILabel+KTJNightVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+KTJNightVersion.h"; sourceTree = "<group>"; };
+		32E99BE41B727CED00A35C46 /* UILabel+KTJNightVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+KTJNightVersion.m"; sourceTree = "<group>"; };
+		32E99BE61B727EEF00A35C46 /* UIButton+KTJNightVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+KTJNightVersion.h"; sourceTree = "<group>"; };
+		32E99BE71B727EEF00A35C46 /* UIButton+KTJNightVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+KTJNightVersion.m"; sourceTree = "<group>"; };
+		32E99BE91B72819400A35C46 /* UITableView+KTJNightVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+KTJNightVersion.h"; sourceTree = "<group>"; };
+		32E99BEA1B72819400A35C46 /* UITableView+KTJNightVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+KTJNightVersion.m"; sourceTree = "<group>"; };
+		32E99BEC1B72854B00A35C46 /* UIImageView+KTJNightVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+KTJNightVersion.h"; sourceTree = "<group>"; };
+		32E99BED1B72854B00A35C46 /* UIImageView+KTJNightVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+KTJNightVersion.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32C8A6D61B72209700C9B285 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32C8A6E91B72209700C9B285 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32C8A6D01B72209700C9B285 = {
+			isa = PBXGroup;
+			children = (
+				32C8A6FC1B7220C000C9B285 /* KTJNightVersion */,
+				32C8A6DB1B72209700C9B285 /* Demo - KTJNightVersion */,
+				32C8A6EF1B72209700C9B285 /* Demo - KTJNightVersionTests */,
+				32C8A6DA1B72209700C9B285 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32C8A6DA1B72209700C9B285 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32C8A6D91B72209700C9B285 /* Demo - KTJNightVersion.app */,
+				32C8A6EC1B72209700C9B285 /* Demo - KTJNightVersionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32C8A6DB1B72209700C9B285 /* Demo - KTJNightVersion */ = {
+			isa = PBXGroup;
+			children = (
+				32C8A6E01B72209700C9B285 /* AppDelegate.h */,
+				32C8A6E11B72209700C9B285 /* AppDelegate.m */,
+				32E99BDC1B724F4C00A35C46 /* FirstViewController.h */,
+				32E99BDD1B724F4C00A35C46 /* FirstViewController.m */,
+				32C8A6E31B72209700C9B285 /* Images.xcassets */,
+				32C8A6E51B72209700C9B285 /* LaunchScreen.xib */,
+				32C8A6DC1B72209700C9B285 /* Supporting Files */,
+			);
+			path = "Demo - KTJNightVersion";
+			sourceTree = "<group>";
+		};
+		32C8A6DC1B72209700C9B285 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32C8A6DD1B72209700C9B285 /* Info.plist */,
+				32C8A6DE1B72209700C9B285 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32C8A6EF1B72209700C9B285 /* Demo - KTJNightVersionTests */ = {
+			isa = PBXGroup;
+			children = (
+				32C8A6F21B72209700C9B285 /* Demo___KTJNightVersionTests.m */,
+				32C8A6F01B72209700C9B285 /* Supporting Files */,
+			);
+			path = "Demo - KTJNightVersionTests";
+			sourceTree = "<group>";
+		};
+		32C8A6F01B72209700C9B285 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32C8A6F11B72209700C9B285 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32C8A6FC1B7220C000C9B285 /* KTJNightVersion */ = {
+			isa = PBXGroup;
+			children = (
+				32C8A6FE1B72211800C9B285 /* Helper */,
+				32C8A6FD1B72210400C9B285 /* UIKit */,
+			);
+			path = KTJNightVersion;
+			sourceTree = "<group>";
+		};
+		32C8A6FD1B72210400C9B285 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				32C8A6FF1B72213900C9B285 /* UIView+KTJNightVersion.h */,
+				32C8A7001B72213900C9B285 /* UIView+KTJNightVersion.m */,
+				32E99BE31B727CED00A35C46 /* UILabel+KTJNightVersion.h */,
+				32E99BE41B727CED00A35C46 /* UILabel+KTJNightVersion.m */,
+				32E99BEC1B72854B00A35C46 /* UIImageView+KTJNightVersion.h */,
+				32E99BED1B72854B00A35C46 /* UIImageView+KTJNightVersion.m */,
+				32E99BE61B727EEF00A35C46 /* UIButton+KTJNightVersion.h */,
+				32E99BE71B727EEF00A35C46 /* UIButton+KTJNightVersion.m */,
+				32E99BE91B72819400A35C46 /* UITableView+KTJNightVersion.h */,
+				32E99BEA1B72819400A35C46 /* UITableView+KTJNightVersion.m */,
+				32E99BD91B724B3900A35C46 /* UIBarButtonItem+KTJNightVersion.h */,
+				32E99BDA1B724B3900A35C46 /* UIBarButtonItem+KTJNightVersion.m */,
+				32E99BE01B72795400A35C46 /* UINavigationBar+KTJNightVersion.h */,
+				32E99BE11B72795400A35C46 /* UINavigationBar+KTJNightVersion.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		32C8A6FE1B72211800C9B285 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				32E99BDF1B72513400A35C46 /* KTJNightVersionHelper.h */,
+				32C8A7021B72221600C9B285 /* KTJNightVersion.h */,
+				32C8A7031B72221600C9B285 /* KTJNightVersion.m */,
+				32E99BD61B72470400A35C46 /* UIViewController+KTJNightVersion.h */,
+				32E99BD71B72470400A35C46 /* UIViewController+KTJNightVersion.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32C8A6D81B72209700C9B285 /* Demo - KTJNightVersion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32C8A6F61B72209700C9B285 /* Build configuration list for PBXNativeTarget "Demo - KTJNightVersion" */;
+			buildPhases = (
+				32C8A6D51B72209700C9B285 /* Sources */,
+				32C8A6D61B72209700C9B285 /* Frameworks */,
+				32C8A6D71B72209700C9B285 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Demo - KTJNightVersion";
+			productName = "Demo - KTJNightVersion";
+			productReference = 32C8A6D91B72209700C9B285 /* Demo - KTJNightVersion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32C8A6EB1B72209700C9B285 /* Demo - KTJNightVersionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32C8A6F91B72209700C9B285 /* Build configuration list for PBXNativeTarget "Demo - KTJNightVersionTests" */;
+			buildPhases = (
+				32C8A6E81B72209700C9B285 /* Sources */,
+				32C8A6E91B72209700C9B285 /* Frameworks */,
+				32C8A6EA1B72209700C9B285 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32C8A6EE1B72209700C9B285 /* PBXTargetDependency */,
+			);
+			name = "Demo - KTJNightVersionTests";
+			productName = "Demo - KTJNightVersionTests";
+			productReference = 32C8A6EC1B72209700C9B285 /* Demo - KTJNightVersionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32C8A6D11B72209700C9B285 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Madordie;
+				TargetAttributes = {
+					32C8A6D81B72209700C9B285 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					32C8A6EB1B72209700C9B285 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 32C8A6D81B72209700C9B285;
+					};
+				};
+			};
+			buildConfigurationList = 32C8A6D41B72209700C9B285 /* Build configuration list for PBXProject "Demo - KTJNightVersion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32C8A6D01B72209700C9B285;
+			productRefGroup = 32C8A6DA1B72209700C9B285 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32C8A6D81B72209700C9B285 /* Demo - KTJNightVersion */,
+				32C8A6EB1B72209700C9B285 /* Demo - KTJNightVersionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32C8A6D71B72209700C9B285 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32C8A6E71B72209700C9B285 /* LaunchScreen.xib in Resources */,
+				32C8A6E41B72209700C9B285 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32C8A6EA1B72209700C9B285 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32C8A6D51B72209700C9B285 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32E99BD81B72470400A35C46 /* UIViewController+KTJNightVersion.m in Sources */,
+				32E99BE81B727EEF00A35C46 /* UIButton+KTJNightVersion.m in Sources */,
+				32E99BE21B72795400A35C46 /* UINavigationBar+KTJNightVersion.m in Sources */,
+				32E99BEB1B72819400A35C46 /* UITableView+KTJNightVersion.m in Sources */,
+				32E99BEE1B72854B00A35C46 /* UIImageView+KTJNightVersion.m in Sources */,
+				32C8A7011B72213900C9B285 /* UIView+KTJNightVersion.m in Sources */,
+				32E99BDE1B724F4C00A35C46 /* FirstViewController.m in Sources */,
+				32C8A7041B72221600C9B285 /* KTJNightVersion.m in Sources */,
+				32C8A6E21B72209700C9B285 /* AppDelegate.m in Sources */,
+				32E99BDB1B724B3900A35C46 /* UIBarButtonItem+KTJNightVersion.m in Sources */,
+				32E99BE51B727CED00A35C46 /* UILabel+KTJNightVersion.m in Sources */,
+				32C8A6DF1B72209700C9B285 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32C8A6E81B72209700C9B285 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32C8A6F31B72209700C9B285 /* Demo___KTJNightVersionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32C8A6EE1B72209700C9B285 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32C8A6D81B72209700C9B285 /* Demo - KTJNightVersion */;
+			targetProxy = 32C8A6ED1B72209700C9B285 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32C8A6E51B72209700C9B285 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32C8A6E61B72209700C9B285 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32C8A6F41B72209700C9B285 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32C8A6F51B72209700C9B285 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32C8A6F71B72209700C9B285 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Demo - KTJNightVersion/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		32C8A6F81B72209700C9B285 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Demo - KTJNightVersion/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		32C8A6FA1B72209700C9B285 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Demo - KTJNightVersionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo - KTJNightVersion.app/Demo - KTJNightVersion";
+			};
+			name = Debug;
+		};
+		32C8A6FB1B72209700C9B285 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Demo - KTJNightVersionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo - KTJNightVersion.app/Demo - KTJNightVersion";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32C8A6D41B72209700C9B285 /* Build configuration list for PBXProject "Demo - KTJNightVersion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32C8A6F41B72209700C9B285 /* Debug */,
+				32C8A6F51B72209700C9B285 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32C8A6F61B72209700C9B285 /* Build configuration list for PBXNativeTarget "Demo - KTJNightVersion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32C8A6F71B72209700C9B285 /* Debug */,
+				32C8A6F81B72209700C9B285 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32C8A6F91B72209700C9B285 /* Build configuration list for PBXNativeTarget "Demo - KTJNightVersionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32C8A6FA1B72209700C9B285 /* Debug */,
+				32C8A6FB1B72209700C9B285 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32C8A6D11B72209700C9B285 /* Project object */;
+}
