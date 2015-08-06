@@ -45,6 +45,10 @@
     即可。
 
 #备注
-  根据https://github.com/Draveness/DKNightVersion.git进行优化。
+  根据 https://github.com/Draveness/DKNightVersion.git 进行优化。
   深深感谢DK的思路。
+  
+  目前至进行小范围测试，并未暴力测试，如果发现问题请留言，谢谢。
+  
+  括弧：其实逻辑挺简单的。。
 
