@@ -1,13 +1,13 @@
 //
-//  FirstViewController.h
+//  RootViewController.h
 //  Demo - KTJNightVersion
 //
-//  Created by 孙继刚 on 15/8/5.
+//  Created by 孙继刚 on 15/8/6.
 //  Copyright (c) 2015年 Madordie. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
+@interface RootViewController : UIViewController
 
 @end

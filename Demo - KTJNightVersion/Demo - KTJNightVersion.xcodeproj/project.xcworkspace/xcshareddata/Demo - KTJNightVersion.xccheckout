@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>AC9B4DE0-D447-4329-B735-BC61ED68363D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5FB38FAA42BCCCE7DD346F59D29C54F438B4FEF7</key>
+		<string>https://github.com/madordie/KTJNightVersion.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Demo - KTJNightVersion/Demo - KTJNightVersion.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5FB38FAA42BCCCE7DD346F59D29C54F438B4FEF7</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/madordie/KTJNightVersion.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5FB38FAA42BCCCE7DD346F59D29C54F438B4FEF7</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5FB38FAA42BCCCE7DD346F59D29C54F438B4FEF7</string>
+			<key>IDESourceControlWCCName</key>
+			<string>KTJNightVersion</string>
+		</dict>
+	</array>
+</dict>
+</plist>

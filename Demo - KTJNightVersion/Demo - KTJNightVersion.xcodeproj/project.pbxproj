@@ -7,21 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		323DAD941B7290CC004FDE15 /* KTJNightVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 323DAD811B7290CC004FDE15 /* KTJNightVersion.m */; };
+		323DAD951B7290CC004FDE15 /* UIViewController+KTJNightVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 323DAD841B7290CC004FDE15 /* UIViewController+KTJNightVersion.m */; };
+		323DAD961B7290CC004FDE15 /* UIBarButtonItem+KTJNightVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 323DAD871B7290CC004FDE15 /* UIBarButtonItem+KTJNightVersion.m */; };
+		323DAD971B7290CC004FDE15 /* UIButton+KTJNightVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 323DAD891B7290CC004FDE15 /* UIButton+KTJNightVersion.m */; };
+		323DAD981B7290CC004FDE15 /* UIImageView+KTJNightVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 323DAD8B1B7290CC004FDE15 /* UIImageView+KTJNightVersion.m */; };
+		323DAD991B7290CC004FDE15 /* UILabel+KTJNightVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 323DAD8D1B7290CC004FDE15 /* UILabel+KTJNightVersion.m */; };
+		323DAD9A1B7290CC004FDE15 /* UINavigationBar+KTJNightVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 323DAD8F1B7290CC004FDE15 /* UINavigationBar+KTJNightVersion.m */; };
+		323DAD9B1B7290CC004FDE15 /* UITableView+KTJNightVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 323DAD911B7290CC004FDE15 /* UITableView+KTJNightVersion.m */; };
+		323DAD9C1B7290CC004FDE15 /* UIView+KTJNightVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 323DAD931B7290CC004FDE15 /* UIView+KTJNightVersion.m */; };
+		324E8D5E1B73443A009842AB /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 324E8D5C1B73443A009842AB /* RootViewController.m */; };
+		324E8D5F1B73443A009842AB /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 324E8D5D1B73443A009842AB /* RootViewController.xib */; };
+		324E8D621B73471A009842AB /* 02.png in Resources */ = {isa = PBXBuildFile; fileRef = 324E8D601B73471A009842AB /* 02.png */; };
+		324E8D631B73471A009842AB /* 01.png in Resources */ = {isa = PBXBuildFile; fileRef = 324E8D611B73471A009842AB /* 01.png */; };
 		32C8A6DF1B72209700C9B285 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C8A6DE1B72209700C9B285 /* main.m */; };
 		32C8A6E21B72209700C9B285 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C8A6E11B72209700C9B285 /* AppDelegate.m */; };
 		32C8A6E41B72209700C9B285 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32C8A6E31B72209700C9B285 /* Images.xcassets */; };
 		32C8A6E71B72209700C9B285 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32C8A6E51B72209700C9B285 /* LaunchScreen.xib */; };
 		32C8A6F31B72209700C9B285 /* Demo___KTJNightVersionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C8A6F21B72209700C9B285 /* Demo___KTJNightVersionTests.m */; };
-		32C8A7011B72213900C9B285 /* UIView+KTJNightVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C8A7001B72213900C9B285 /* UIView+KTJNightVersion.m */; };
-		32C8A7041B72221600C9B285 /* KTJNightVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C8A7031B72221600C9B285 /* KTJNightVersion.m */; };
-		32E99BD81B72470400A35C46 /* UIViewController+KTJNightVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E99BD71B72470400A35C46 /* UIViewController+KTJNightVersion.m */; };
-		32E99BDB1B724B3900A35C46 /* UIBarButtonItem+KTJNightVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E99BDA1B724B3900A35C46 /* UIBarButtonItem+KTJNightVersion.m */; };
-		32E99BDE1B724F4C00A35C46 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E99BDD1B724F4C00A35C46 /* FirstViewController.m */; };
-		32E99BE21B72795400A35C46 /* UINavigationBar+KTJNightVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E99BE11B72795400A35C46 /* UINavigationBar+KTJNightVersion.m */; };
-		32E99BE51B727CED00A35C46 /* UILabel+KTJNightVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E99BE41B727CED00A35C46 /* UILabel+KTJNightVersion.m */; };
-		32E99BE81B727EEF00A35C46 /* UIButton+KTJNightVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E99BE71B727EEF00A35C46 /* UIButton+KTJNightVersion.m */; };
-		32E99BEB1B72819400A35C46 /* UITableView+KTJNightVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E99BEA1B72819400A35C46 /* UITableView+KTJNightVersion.m */; };
-		32E99BEE1B72854B00A35C46 /* UIImageView+KTJNightVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E99BED1B72854B00A35C46 /* UIImageView+KTJNightVersion.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		323DAD801B7290CC004FDE15 /* KTJNightVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTJNightVersion.h; sourceTree = "<group>"; };
+		323DAD811B7290CC004FDE15 /* KTJNightVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTJNightVersion.m; sourceTree = "<group>"; };
+		323DAD821B7290CC004FDE15 /* KTJNightVersionHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTJNightVersionHelper.h; sourceTree = "<group>"; };
+		323DAD831B7290CC004FDE15 /* UIViewController+KTJNightVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+KTJNightVersion.h"; sourceTree = "<group>"; };
+		323DAD841B7290CC004FDE15 /* UIViewController+KTJNightVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+KTJNightVersion.m"; sourceTree = "<group>"; };
+		323DAD861B7290CC004FDE15 /* UIBarButtonItem+KTJNightVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+KTJNightVersion.h"; sourceTree = "<group>"; };
+		323DAD871B7290CC004FDE15 /* UIBarButtonItem+KTJNightVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+KTJNightVersion.m"; sourceTree = "<group>"; };
+		323DAD881B7290CC004FDE15 /* UIButton+KTJNightVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+KTJNightVersion.h"; sourceTree = "<group>"; };
+		323DAD891B7290CC004FDE15 /* UIButton+KTJNightVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+KTJNightVersion.m"; sourceTree = "<group>"; };
+		323DAD8A1B7290CC004FDE15 /* UIImageView+KTJNightVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+KTJNightVersion.h"; sourceTree = "<group>"; };
+		323DAD8B1B7290CC004FDE15 /* UIImageView+KTJNightVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+KTJNightVersion.m"; sourceTree = "<group>"; };
+		323DAD8C1B7290CC004FDE15 /* UILabel+KTJNightVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+KTJNightVersion.h"; sourceTree = "<group>"; };
+		323DAD8D1B7290CC004FDE15 /* UILabel+KTJNightVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+KTJNightVersion.m"; sourceTree = "<group>"; };
+		323DAD8E1B7290CC004FDE15 /* UINavigationBar+KTJNightVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+KTJNightVersion.h"; sourceTree = "<group>"; };
+		323DAD8F1B7290CC004FDE15 /* UINavigationBar+KTJNightVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+KTJNightVersion.m"; sourceTree = "<group>"; };
+		323DAD901B7290CC004FDE15 /* UITableView+KTJNightVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+KTJNightVersion.h"; sourceTree = "<group>"; };
+		323DAD911B7290CC004FDE15 /* UITableView+KTJNightVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+KTJNightVersion.m"; sourceTree = "<group>"; };
+		323DAD921B7290CC004FDE15 /* UIView+KTJNightVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+KTJNightVersion.h"; sourceTree = "<group>"; };
+		323DAD931B7290CC004FDE15 /* UIView+KTJNightVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+KTJNightVersion.m"; sourceTree = "<group>"; };
+		324E8D5B1B73443A009842AB /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		324E8D5C1B73443A009842AB /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		324E8D5D1B73443A009842AB /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		324E8D601B73471A009842AB /* 02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02.png; sourceTree = "<group>"; };
+		324E8D611B73471A009842AB /* 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01.png; sourceTree = "<group>"; };
+		3298EB031B72FDC500A9A16D /* KTJNightVersionMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTJNightVersionMacro.h; sourceTree = "<group>"; };
 		32C8A6D91B72209700C9B285 /* Demo - KTJNightVersion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Demo - KTJNightVersion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32C8A6DD1B72209700C9B285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32C8A6DE1B72209700C9B285 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -45,27 +73,6 @@
 		32C8A6EC1B72209700C9B285 /* Demo - KTJNightVersionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Demo - KTJNightVersionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32C8A6F11B72209700C9B285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32C8A6F21B72209700C9B285 /* Demo___KTJNightVersionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Demo___KTJNightVersionTests.m"; sourceTree = "<group>"; };
-		32C8A6FF1B72213900C9B285 /* UIView+KTJNightVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+KTJNightVersion.h"; sourceTree = "<group>"; };
-		32C8A7001B72213900C9B285 /* UIView+KTJNightVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+KTJNightVersion.m"; sourceTree = "<group>"; };
-		32C8A7021B72221600C9B285 /* KTJNightVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTJNightVersion.h; sourceTree = "<group>"; };
-		32C8A7031B72221600C9B285 /* KTJNightVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTJNightVersion.m; sourceTree = "<group>"; };
-		32E99BD61B72470400A35C46 /* UIViewController+KTJNightVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+KTJNightVersion.h"; sourceTree = "<group>"; };
-		32E99BD71B72470400A35C46 /* UIViewController+KTJNightVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+KTJNightVersion.m"; sourceTree = "<group>"; };
-		32E99BD91B724B3900A35C46 /* UIBarButtonItem+KTJNightVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+KTJNightVersion.h"; sourceTree = "<group>"; };
-		32E99BDA1B724B3900A35C46 /* UIBarButtonItem+KTJNightVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+KTJNightVersion.m"; sourceTree = "<group>"; };
-		32E99BDC1B724F4C00A35C46 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		32E99BDD1B724F4C00A35C46 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		32E99BDF1B72513400A35C46 /* KTJNightVersionHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTJNightVersionHelper.h; sourceTree = "<group>"; };
-		32E99BE01B72795400A35C46 /* UINavigationBar+KTJNightVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+KTJNightVersion.h"; sourceTree = "<group>"; };
-		32E99BE11B72795400A35C46 /* UINavigationBar+KTJNightVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+KTJNightVersion.m"; sourceTree = "<group>"; };
-		32E99BE31B727CED00A35C46 /* UILabel+KTJNightVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+KTJNightVersion.h"; sourceTree = "<group>"; };
-		32E99BE41B727CED00A35C46 /* UILabel+KTJNightVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+KTJNightVersion.m"; sourceTree = "<group>"; };
-		32E99BE61B727EEF00A35C46 /* UIButton+KTJNightVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+KTJNightVersion.h"; sourceTree = "<group>"; };
-		32E99BE71B727EEF00A35C46 /* UIButton+KTJNightVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+KTJNightVersion.m"; sourceTree = "<group>"; };
-		32E99BE91B72819400A35C46 /* UITableView+KTJNightVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+KTJNightVersion.h"; sourceTree = "<group>"; };
-		32E99BEA1B72819400A35C46 /* UITableView+KTJNightVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+KTJNightVersion.m"; sourceTree = "<group>"; };
-		32E99BEC1B72854B00A35C46 /* UIImageView+KTJNightVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+KTJNightVersion.h"; sourceTree = "<group>"; };
-		32E99BED1B72854B00A35C46 /* UIImageView+KTJNightVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+KTJNightVersion.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,10 +93,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		323DAD7E1B7290CC004FDE15 /* KTJNightVersion */ = {
+			isa = PBXGroup;
+			children = (
+				323DAD7F1B7290CC004FDE15 /* Helper */,
+				323DAD851B7290CC004FDE15 /* UIKit */,
+			);
+			path = KTJNightVersion;
+			sourceTree = "<group>";
+		};
+		323DAD7F1B7290CC004FDE15 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				323DAD801B7290CC004FDE15 /* KTJNightVersion.h */,
+				323DAD811B7290CC004FDE15 /* KTJNightVersion.m */,
+				323DAD821B7290CC004FDE15 /* KTJNightVersionHelper.h */,
+				323DAD831B7290CC004FDE15 /* UIViewController+KTJNightVersion.h */,
+				323DAD841B7290CC004FDE15 /* UIViewController+KTJNightVersion.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		323DAD851B7290CC004FDE15 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				323DAD861B7290CC004FDE15 /* UIBarButtonItem+KTJNightVersion.h */,
+				323DAD871B7290CC004FDE15 /* UIBarButtonItem+KTJNightVersion.m */,
+				323DAD881B7290CC004FDE15 /* UIButton+KTJNightVersion.h */,
+				323DAD891B7290CC004FDE15 /* UIButton+KTJNightVersion.m */,
+				323DAD8A1B7290CC004FDE15 /* UIImageView+KTJNightVersion.h */,
+				323DAD8B1B7290CC004FDE15 /* UIImageView+KTJNightVersion.m */,
+				323DAD8C1B7290CC004FDE15 /* UILabel+KTJNightVersion.h */,
+				323DAD8D1B7290CC004FDE15 /* UILabel+KTJNightVersion.m */,
+				323DAD8E1B7290CC004FDE15 /* UINavigationBar+KTJNightVersion.h */,
+				323DAD8F1B7290CC004FDE15 /* UINavigationBar+KTJNightVersion.m */,
+				323DAD901B7290CC004FDE15 /* UITableView+KTJNightVersion.h */,
+				323DAD911B7290CC004FDE15 /* UITableView+KTJNightVersion.m */,
+				323DAD921B7290CC004FDE15 /* UIView+KTJNightVersion.h */,
+				323DAD931B7290CC004FDE15 /* UIView+KTJNightVersion.m */,
+				3298EB031B72FDC500A9A16D /* KTJNightVersionMacro.h */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
 		32C8A6D01B72209700C9B285 = {
 			isa = PBXGroup;
 			children = (
-				32C8A6FC1B7220C000C9B285 /* KTJNightVersion */,
+				323DAD7E1B7290CC004FDE15 /* KTJNightVersion */,
 				32C8A6DB1B72209700C9B285 /* Demo - KTJNightVersion */,
 				32C8A6EF1B72209700C9B285 /* Demo - KTJNightVersionTests */,
 				32C8A6DA1B72209700C9B285 /* Products */,
@@ -108,10 +158,13 @@
 		32C8A6DB1B72209700C9B285 /* Demo - KTJNightVersion */ = {
 			isa = PBXGroup;
 			children = (
+				324E8D601B73471A009842AB /* 02.png */,
+				324E8D611B73471A009842AB /* 01.png */,
 				32C8A6E01B72209700C9B285 /* AppDelegate.h */,
 				32C8A6E11B72209700C9B285 /* AppDelegate.m */,
-				32E99BDC1B724F4C00A35C46 /* FirstViewController.h */,
-				32E99BDD1B724F4C00A35C46 /* FirstViewController.m */,
+				324E8D5B1B73443A009842AB /* RootViewController.h */,
+				324E8D5C1B73443A009842AB /* RootViewController.m */,
+				324E8D5D1B73443A009842AB /* RootViewController.xib */,
 				32C8A6E31B72209700C9B285 /* Images.xcassets */,
 				32C8A6E51B72209700C9B285 /* LaunchScreen.xib */,
 				32C8A6DC1B72209700C9B285 /* Supporting Files */,
@@ -143,48 +196,6 @@
 				32C8A6F11B72209700C9B285 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		32C8A6FC1B7220C000C9B285 /* KTJNightVersion */ = {
-			isa = PBXGroup;
-			children = (
-				32C8A6FE1B72211800C9B285 /* Helper */,
-				32C8A6FD1B72210400C9B285 /* UIKit */,
-			);
-			path = KTJNightVersion;
-			sourceTree = "<group>";
-		};
-		32C8A6FD1B72210400C9B285 /* UIKit */ = {
-			isa = PBXGroup;
-			children = (
-				32C8A6FF1B72213900C9B285 /* UIView+KTJNightVersion.h */,
-				32C8A7001B72213900C9B285 /* UIView+KTJNightVersion.m */,
-				32E99BE31B727CED00A35C46 /* UILabel+KTJNightVersion.h */,
-				32E99BE41B727CED00A35C46 /* UILabel+KTJNightVersion.m */,
-				32E99BEC1B72854B00A35C46 /* UIImageView+KTJNightVersion.h */,
-				32E99BED1B72854B00A35C46 /* UIImageView+KTJNightVersion.m */,
-				32E99BE61B727EEF00A35C46 /* UIButton+KTJNightVersion.h */,
-				32E99BE71B727EEF00A35C46 /* UIButton+KTJNightVersion.m */,
-				32E99BE91B72819400A35C46 /* UITableView+KTJNightVersion.h */,
-				32E99BEA1B72819400A35C46 /* UITableView+KTJNightVersion.m */,
-				32E99BD91B724B3900A35C46 /* UIBarButtonItem+KTJNightVersion.h */,
-				32E99BDA1B724B3900A35C46 /* UIBarButtonItem+KTJNightVersion.m */,
-				32E99BE01B72795400A35C46 /* UINavigationBar+KTJNightVersion.h */,
-				32E99BE11B72795400A35C46 /* UINavigationBar+KTJNightVersion.m */,
-			);
-			path = UIKit;
-			sourceTree = "<group>";
-		};
-		32C8A6FE1B72211800C9B285 /* Helper */ = {
-			isa = PBXGroup;
-			children = (
-				32E99BDF1B72513400A35C46 /* KTJNightVersionHelper.h */,
-				32C8A7021B72221600C9B285 /* KTJNightVersion.h */,
-				32C8A7031B72221600C9B285 /* KTJNightVersion.m */,
-				32E99BD61B72470400A35C46 /* UIViewController+KTJNightVersion.h */,
-				32E99BD71B72470400A35C46 /* UIViewController+KTJNightVersion.m */,
-			);
-			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,6 +280,9 @@
 			files = (
 				32C8A6E71B72209700C9B285 /* LaunchScreen.xib in Resources */,
 				32C8A6E41B72209700C9B285 /* Images.xcassets in Resources */,
+				324E8D621B73471A009842AB /* 02.png in Resources */,
+				324E8D631B73471A009842AB /* 01.png in Resources */,
+				324E8D5F1B73443A009842AB /* RootViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,17 +300,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32E99BD81B72470400A35C46 /* UIViewController+KTJNightVersion.m in Sources */,
-				32E99BE81B727EEF00A35C46 /* UIButton+KTJNightVersion.m in Sources */,
-				32E99BE21B72795400A35C46 /* UINavigationBar+KTJNightVersion.m in Sources */,
-				32E99BEB1B72819400A35C46 /* UITableView+KTJNightVersion.m in Sources */,
-				32E99BEE1B72854B00A35C46 /* UIImageView+KTJNightVersion.m in Sources */,
-				32C8A7011B72213900C9B285 /* UIView+KTJNightVersion.m in Sources */,
-				32E99BDE1B724F4C00A35C46 /* FirstViewController.m in Sources */,
-				32C8A7041B72221600C9B285 /* KTJNightVersion.m in Sources */,
+				323DAD9C1B7290CC004FDE15 /* UIView+KTJNightVersion.m in Sources */,
+				323DAD981B7290CC004FDE15 /* UIImageView+KTJNightVersion.m in Sources */,
+				323DAD971B7290CC004FDE15 /* UIButton+KTJNightVersion.m in Sources */,
+				323DAD951B7290CC004FDE15 /* UIViewController+KTJNightVersion.m in Sources */,
+				323DAD9B1B7290CC004FDE15 /* UITableView+KTJNightVersion.m in Sources */,
+				323DAD941B7290CC004FDE15 /* KTJNightVersion.m in Sources */,
 				32C8A6E21B72209700C9B285 /* AppDelegate.m in Sources */,
-				32E99BDB1B724B3900A35C46 /* UIBarButtonItem+KTJNightVersion.m in Sources */,
-				32E99BE51B727CED00A35C46 /* UILabel+KTJNightVersion.m in Sources */,
+				323DAD961B7290CC004FDE15 /* UIBarButtonItem+KTJNightVersion.m in Sources */,
+				323DAD9A1B7290CC004FDE15 /* UINavigationBar+KTJNightVersion.m in Sources */,
+				324E8D5E1B73443A009842AB /* RootViewController.m in Sources */,
+				323DAD991B7290CC004FDE15 /* UILabel+KTJNightVersion.m in Sources */,
 				32C8A6DF1B72209700C9B285 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
