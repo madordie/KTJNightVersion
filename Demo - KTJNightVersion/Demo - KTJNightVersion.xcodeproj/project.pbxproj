@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		323D908E1B773B83005C467E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 323D908D1B773B83005C467E /* DetailViewController.m */; };
 		323DAD941B7290CC004FDE15 /* KTJNightVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 323DAD811B7290CC004FDE15 /* KTJNightVersion.m */; };
 		323DAD951B7290CC004FDE15 /* UIViewController+KTJNightVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 323DAD841B7290CC004FDE15 /* UIViewController+KTJNightVersion.m */; };
 		323DAD961B7290CC004FDE15 /* UIBarButtonItem+KTJNightVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 323DAD871B7290CC004FDE15 /* UIBarButtonItem+KTJNightVersion.m */; };
@@ -17,7 +18,6 @@
 		323DAD9B1B7290CC004FDE15 /* UITableView+KTJNightVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 323DAD911B7290CC004FDE15 /* UITableView+KTJNightVersion.m */; };
 		323DAD9C1B7290CC004FDE15 /* UIView+KTJNightVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 323DAD931B7290CC004FDE15 /* UIView+KTJNightVersion.m */; };
 		324E8D5E1B73443A009842AB /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 324E8D5C1B73443A009842AB /* RootViewController.m */; };
-		324E8D5F1B73443A009842AB /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 324E8D5D1B73443A009842AB /* RootViewController.xib */; };
 		324E8D621B73471A009842AB /* 02.png in Resources */ = {isa = PBXBuildFile; fileRef = 324E8D601B73471A009842AB /* 02.png */; };
 		324E8D631B73471A009842AB /* 01.png in Resources */ = {isa = PBXBuildFile; fileRef = 324E8D611B73471A009842AB /* 01.png */; };
 		32C8A6DF1B72209700C9B285 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C8A6DE1B72209700C9B285 /* main.m */; };
@@ -38,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		323D908C1B773B83005C467E /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		323D908D1B773B83005C467E /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		323DAD801B7290CC004FDE15 /* KTJNightVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTJNightVersion.h; sourceTree = "<group>"; };
 		323DAD811B7290CC004FDE15 /* KTJNightVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTJNightVersion.m; sourceTree = "<group>"; };
 		323DAD821B7290CC004FDE15 /* KTJNightVersionHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTJNightVersionHelper.h; sourceTree = "<group>"; };
@@ -59,7 +61,6 @@
 		323DAD931B7290CC004FDE15 /* UIView+KTJNightVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+KTJNightVersion.m"; sourceTree = "<group>"; };
 		324E8D5B1B73443A009842AB /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		324E8D5C1B73443A009842AB /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		324E8D5D1B73443A009842AB /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
 		324E8D601B73471A009842AB /* 02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02.png; sourceTree = "<group>"; };
 		324E8D611B73471A009842AB /* 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01.png; sourceTree = "<group>"; };
 		3298EB031B72FDC500A9A16D /* KTJNightVersionMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTJNightVersionMacro.h; sourceTree = "<group>"; };
@@ -164,7 +165,8 @@
 				32C8A6E11B72209700C9B285 /* AppDelegate.m */,
 				324E8D5B1B73443A009842AB /* RootViewController.h */,
 				324E8D5C1B73443A009842AB /* RootViewController.m */,
-				324E8D5D1B73443A009842AB /* RootViewController.xib */,
+				323D908C1B773B83005C467E /* DetailViewController.h */,
+				323D908D1B773B83005C467E /* DetailViewController.m */,
 				32C8A6E31B72209700C9B285 /* Images.xcassets */,
 				32C8A6E51B72209700C9B285 /* LaunchScreen.xib */,
 				32C8A6DC1B72209700C9B285 /* Supporting Files */,
@@ -282,7 +284,6 @@
 				32C8A6E41B72209700C9B285 /* Images.xcassets in Resources */,
 				324E8D621B73471A009842AB /* 02.png in Resources */,
 				324E8D631B73471A009842AB /* 01.png in Resources */,
-				324E8D5F1B73443A009842AB /* RootViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +310,7 @@
 				32C8A6E21B72209700C9B285 /* AppDelegate.m in Sources */,
 				323DAD961B7290CC004FDE15 /* UIBarButtonItem+KTJNightVersion.m in Sources */,
 				323DAD9A1B7290CC004FDE15 /* UINavigationBar+KTJNightVersion.m in Sources */,
+				323D908E1B773B83005C467E /* DetailViewController.m in Sources */,
 				324E8D5E1B73443A009842AB /* RootViewController.m in Sources */,
 				323DAD991B7290CC004FDE15 /* UILabel+KTJNightVersion.m in Sources */,
 				32C8A6DF1B72209700C9B285 /* main.m in Sources */,

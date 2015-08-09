@@ -20,10 +20,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-//    [UINavigationBar appearance].ktj_normalBarTintColor = [UIColor orangeColor];
-//    [UINavigationBar appearance].ktj_nightBarTintColor = [UIColor greenColor];
-    
+    self.window.backgroundColor = [UIColor whiteColor];    
     self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[RootViewController new]];
     [self.window makeKeyAndVisible];
     return YES;

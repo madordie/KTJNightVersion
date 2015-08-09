@@ -21,19 +21,13 @@
 }
 
 - (void)ktjhook_setSeparatorColor:(UIColor *)separatorColor {
-    if (!self.ktj_normalSeparatorColor) {
-        [self ktj_saveNormalSeparatorColor:separatorColor];
-    }
+    self.ktj_normalSeparatorColor = separatorColor;
     [self ktjhook_setSeparatorColor:separatorColor];
 }
 
 - (void)setKtj_nightSeparatorColor:(UIColor *)ktj_nightSeparatorColor {
-    if (ktj_nightSeparatorColor == self.ktj_nightSeparatorColor) {
-        return;
-    }
-    
     if ([KTJNightVersion currentStyle] == KTJNightVersionStyleNight) {
-        self.separatorColor = ktj_nightSeparatorColor;
+        [self ktjhook_setSeparatorColor:ktj_nightSeparatorColor];
     }
     
     objc_setAssociatedObject(self, @selector(ktj_nightSeparatorColor), ktj_nightSeparatorColor, OBJC_ASSOCIATION_RETAIN);
@@ -43,12 +37,8 @@
 }
 
 - (void)setKtj_normalSeparatorColor:(UIColor *)ktj_normalSeparatorColor {
-    if (ktj_normalSeparatorColor == self.ktj_normalSeparatorColor) {
-        return;
-    }
-    
     if ([KTJNightVersion currentStyle] == KTJNightVersionStyleNormal) {
-        self.separatorColor = ktj_normalSeparatorColor;
+        [self ktjhook_setSeparatorColor:ktj_normalSeparatorColor];
     }
     
     [self ktj_saveNormalSeparatorColor:ktj_normalSeparatorColor];
@@ -82,7 +72,7 @@
             }
             JGWeak(self);
             void (^changeColor)(void) = ^(void) {
-                weakself.separatorColor = separatorColor;
+                [weakself ktjhook_setSeparatorColor:separatorColor];
             };
             if (animation) {
                 [UIView animateWithDuration:duration animations:changeColor];

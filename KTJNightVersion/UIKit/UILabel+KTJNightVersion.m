@@ -20,7 +20,7 @@
     });
 }
 - (void)ktjhook_setTextColor:(UIColor *)textColor {
-    if (!self.ktj_normalTextColor) {
+    if (!self.ktj_normalTextColor && self.ktj_normalTextColor!=self.ktj_nightTextColor) {
         [self ktj_saveNormalTextColor:textColor];
     }
     [self ktjhook_setTextColor:textColor];

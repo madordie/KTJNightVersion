@@ -21,7 +21,7 @@
 }
 
 - (void)ktjhook_setBarTintColor:(UIColor *)barTintColor {
-    if (!self.ktj_normalBarTintColor) {
+    if (!self.ktj_normalBarTintColor && self.ktj_normalBarTintColor!=self.ktj_nightBarTintColor) {
         [self ktj_saveNormalBarTintColor:barTintColor];
     }
     [self ktjhook_setBarTintColor:barTintColor];

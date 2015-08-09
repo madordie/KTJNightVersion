@@ -20,7 +20,7 @@
     });
 }
 - (void)ktjhook_setTintColor:(UIColor *)tintColor {
-    if (!self.ktj_normalTintColor) {
+    if (!self.ktj_normalTintColor && self.ktj_normalTintColor != self.ktj_nightTintColor) {
         [self ktj_saveNormalTintColor:tintColor];
     }
     [self ktjhook_setTintColor:tintColor];

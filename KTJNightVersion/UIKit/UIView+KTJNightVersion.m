@@ -22,13 +22,13 @@
 }
 
 - (void)ktjhook_setBackgroundColor:(UIColor*)backgroundColor {
-    if (!self.ktj_normalBackgroudColor) {
+    if (!self.ktj_normalBackgroudColor && self.ktj_nightBackgroudColor!=self.ktj_normalBackgroudColor) {
         [self ktj_saveNormalBackgroudColor:backgroundColor];
     }
     [self ktjhook_setBackgroundColor:backgroundColor];
 }
 - (void)ktjhook_setTintColor:(UIColor *)tintColor {
-    if (!self.ktj_normalTintColor) {
+    if (!self.ktj_normalTintColor && self.ktj_normalTintColor!=self.ktj_nightTintColor) {
         [self ktj_saveNormalTintColor:tintColor];
     }
     [self ktjhook_setTintColor:tintColor];

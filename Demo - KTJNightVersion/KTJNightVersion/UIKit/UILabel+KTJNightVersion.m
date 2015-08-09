@@ -20,19 +20,13 @@
     });
 }
 - (void)ktjhook_setTextColor:(UIColor *)textColor {
-    if (!self.ktj_normalTextColor) {
-        [self ktj_saveNormalTextColor:textColor];
-    }
+    self.ktj_normalTextColor = textColor;
     [self ktjhook_setTextColor:textColor];
 }
 
 - (void)setKtj_nightTextColor:(UIColor *)ktj_nightTextColor {
-    if (ktj_nightTextColor == self.ktj_nightTextColor) {
-        return;
-    }
-    
     if ([KTJNightVersion currentStyle] == KTJNightVersionStyleNight) {
-        self.textColor = ktj_nightTextColor;
+        [self ktjhook_setTextColor:ktj_nightTextColor];
     }
     
     objc_setAssociatedObject(self, @selector(ktj_nightTextColor), ktj_nightTextColor, OBJC_ASSOCIATION_RETAIN);
@@ -42,12 +36,8 @@
 }
 
 - (void)setKtj_normalTextColor:(UIColor *)ktj_normalTextColor {
-    if (ktj_normalTextColor == self.ktj_normalTextColor) {
-        return;
-    }
-    
     if ([KTJNightVersion currentStyle] == KTJNightVersionStyleNormal) {
-        self.textColor = ktj_normalTextColor;
+        [self ktjhook_setTextColor:ktj_normalTextColor];
     }
     
     [self ktj_saveNormalTextColor:ktj_normalTextColor];
@@ -79,7 +69,7 @@
             }
             JGWeak(self);
             void (^changeColor)(void) = ^(void) {
-                weakself.textColor = textColor;
+                [weakself ktjhook_setTextColor:textColor];
             };
             if (animation) {
                 [UIView animateWithDuration:duration animations:changeColor];

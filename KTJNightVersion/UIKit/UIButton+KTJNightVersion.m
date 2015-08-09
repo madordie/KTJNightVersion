@@ -20,7 +20,7 @@
     });
 }
 - (void)ktjhook_setTitleColor:(UIColor *)titleColor forState:(UIControlState)state {
-    if (state == UIControlStateNormal && ![self titleColorForState:state]) {
+    if (state == UIControlStateNormal && ![self titleColorForState:state] && self.ktj_normalTitleColor!=self.ktj_nightTitleColor) {
         [self ktj_saveNormalTitleColor:titleColor];
     }
     [self ktjhook_setTitleColor:titleColor forState:state];

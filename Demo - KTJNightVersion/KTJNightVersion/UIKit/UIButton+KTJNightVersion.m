@@ -20,19 +20,15 @@
     });
 }
 - (void)ktjhook_setTitleColor:(UIColor *)titleColor forState:(UIControlState)state {
-    if (state == UIControlStateNormal && ![self titleColorForState:state]) {
-        [self ktj_saveNormalTitleColor:titleColor];
+    if (state == UIControlStateNormal) {
+        self.ktj_normalTitleColor = titleColor;
     }
     [self ktjhook_setTitleColor:titleColor forState:state];
 }
 
 - (void)setKtj_nightTitleColor:(UIColor *)ktj_nightTitleColor {
-    if (ktj_nightTitleColor == self.ktj_nightTitleColor) {
-        return;
-    }
-    
     if ([KTJNightVersion currentStyle] == KTJNightVersionStyleNight) {
-        [self setTitleColor:ktj_nightTitleColor forState:UIControlStateNormal];
+        [self ktjhook_setTitleColor:ktj_nightTitleColor forState:UIControlStateNormal];
     }
     
     objc_setAssociatedObject(self, @selector(ktj_nightTitleColor), ktj_nightTitleColor, OBJC_ASSOCIATION_RETAIN);
@@ -42,12 +38,8 @@
 }
 
 - (void)setKtj_normalTitleColor:(UIColor *)ktj_normalTitleColor {
-    if (ktj_normalTitleColor == self.ktj_normalTitleColor) {
-        return;
-    }
-    
     if ([KTJNightVersion currentStyle] == KTJNightVersionStyleNormal) {
-        [self setTitleColor:ktj_normalTitleColor forState:UIControlStateNormal];
+        [self ktjhook_setTitleColor:ktj_normalTitleColor forState:UIControlStateNormal];
     }
     
     [self ktj_saveNormalTitleColor:ktj_normalTitleColor];
@@ -80,7 +72,7 @@
             }
             JGWeak(self);
             void (^changeColor)(void) = ^(void) {
-                [weakself setTitleColor:titleColor forState:UIControlStateNormal];
+                [weakself ktjhook_setTitleColor:titleColor forState:UIControlStateNormal];
             };
             if (animation) {
                 [UIView animateWithDuration:duration animations:changeColor];

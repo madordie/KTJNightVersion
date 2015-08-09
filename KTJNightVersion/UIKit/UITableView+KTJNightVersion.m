@@ -21,7 +21,7 @@
 }
 
 - (void)ktjhook_setSeparatorColor:(UIColor *)separatorColor {
-    if (!self.ktj_normalSeparatorColor) {
+    if (!self.ktj_normalSeparatorColor && self.ktj_normalSeparatorColor!= self.ktj_nightSeparatorColor) {
         [self ktj_saveNormalSeparatorColor:separatorColor];
     }
     [self ktjhook_setSeparatorColor:separatorColor];

@@ -20,7 +20,7 @@
     });
 }
 - (void)ktjhook_setImage:(UIImage *)image {
-    if (![self ktj_normalImage]) {
+    if (![self ktj_normalImage] && self.ktj_normalImage!=self.ktj_nightImage) {
         [self ktj_saveNormalImage:image];
     }
     [self ktjhook_setImage:image];
