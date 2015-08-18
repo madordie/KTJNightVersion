@@ -21,19 +21,13 @@
 }
 
 - (void)ktjhook_setBarTintColor:(UIColor *)barTintColor {
-    if (!self.ktj_normalBarTintColor && self.ktj_normalBarTintColor!=self.ktj_nightBarTintColor) {
-        [self ktj_saveNormalBarTintColor:barTintColor];
-    }
+    self.ktj_normalBarTintColor = barTintColor;
     [self ktjhook_setBarTintColor:barTintColor];
 }
 
 - (void)setKtj_nightBarTintColor:(UIColor *)ktj_nightBarTintColor {
-    if (ktj_nightBarTintColor == self.ktj_nightBarTintColor) {
-        return;
-    }
-    
     if ([KTJNightVersion currentStyle] == KTJNightVersionStyleNight) {
-        self.barTintColor = ktj_nightBarTintColor;
+        [self ktjhook_setBarTintColor:ktj_nightBarTintColor];
     }
     
     objc_setAssociatedObject(self, @selector(ktj_nightBarTintColor), ktj_nightBarTintColor, OBJC_ASSOCIATION_RETAIN);
@@ -42,12 +36,8 @@
     return objc_getAssociatedObject(self, @selector(ktj_nightBarTintColor))?:self.barTintColor;
 }
 - (void)setKtj_normalBarTintColor:(UIColor *)ktj_normalBarTintColor {
-    if (ktj_normalBarTintColor == self.ktj_normalBarTintColor) {
-        return;
-    }
-    
     if ([KTJNightVersion currentStyle] == KTJNightVersionStyleNormal) {
-        self.barTintColor = ktj_normalBarTintColor;
+        [self ktjhook_setBarTintColor:ktj_normalBarTintColor];
     }
     
     [self ktj_saveNormalBarTintColor:ktj_normalBarTintColor];
@@ -79,7 +69,7 @@
             }
             JGWeak(self);
             void (^changeColor)(void) = ^(void) {
-                weakself.barTintColor = barTintColor;
+                [weakself ktjhook_setBarTintColor:barTintColor];
             };
             if (animation) {
                 [UIView animateWithDuration:duration animations:changeColor];

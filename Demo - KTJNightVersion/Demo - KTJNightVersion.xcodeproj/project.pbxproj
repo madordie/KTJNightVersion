@@ -38,11 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3235FFA01B835DBF00EF8FDF /* KTJNightVersionHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTJNightVersionHelper.h; sourceTree = "<group>"; };
 		323D908C1B773B83005C467E /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		323D908D1B773B83005C467E /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		323DAD801B7290CC004FDE15 /* KTJNightVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTJNightVersion.h; sourceTree = "<group>"; };
 		323DAD811B7290CC004FDE15 /* KTJNightVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTJNightVersion.m; sourceTree = "<group>"; };
-		323DAD821B7290CC004FDE15 /* KTJNightVersionHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTJNightVersionHelper.h; sourceTree = "<group>"; };
 		323DAD831B7290CC004FDE15 /* UIViewController+KTJNightVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+KTJNightVersion.h"; sourceTree = "<group>"; };
 		323DAD841B7290CC004FDE15 /* UIViewController+KTJNightVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+KTJNightVersion.m"; sourceTree = "<group>"; };
 		323DAD861B7290CC004FDE15 /* UIBarButtonItem+KTJNightVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+KTJNightVersion.h"; sourceTree = "<group>"; };
@@ -97,6 +97,7 @@
 		323DAD7E1B7290CC004FDE15 /* KTJNightVersion */ = {
 			isa = PBXGroup;
 			children = (
+				3235FFA01B835DBF00EF8FDF /* KTJNightVersionHelper.h */,
 				323DAD7F1B7290CC004FDE15 /* Helper */,
 				323DAD851B7290CC004FDE15 /* UIKit */,
 			);
@@ -108,7 +109,6 @@
 			children = (
 				323DAD801B7290CC004FDE15 /* KTJNightVersion.h */,
 				323DAD811B7290CC004FDE15 /* KTJNightVersion.m */,
-				323DAD821B7290CC004FDE15 /* KTJNightVersionHelper.h */,
 				323DAD831B7290CC004FDE15 /* UIViewController+KTJNightVersion.h */,
 				323DAD841B7290CC004FDE15 /* UIViewController+KTJNightVersion.m */,
 			);

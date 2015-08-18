@@ -4,7 +4,7 @@
 //
 //  Created by 孙继刚 on 15/8/5.
 //  Copyright (c) 2015年 Madordie. All rights reserved.
-//
+//  https://github.com/madordie/KTJNightVersion.git
 
 #ifndef Demo___KTJNightVersion_KTJNightVersionHelper_h
 #define Demo___KTJNightVersion_KTJNightVersionHelper_h
@@ -21,7 +21,13 @@
 #endif
 
 
-#if 0   //  使用说明
+#if 0  
+    如果发现任何异常问题，请联系：
+    //  https://github.com/madordie/KTJNightVersion.git
+    //  http://www.cnblogs.com/madordie/p/4716396.html
+    //  http://www.cnblogs.com/madordie/
+
+    //  使用说明
 
     辅助快速部署第二种皮肤管理。
 

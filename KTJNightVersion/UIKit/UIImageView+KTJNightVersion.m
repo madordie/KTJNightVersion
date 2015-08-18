@@ -20,19 +20,13 @@
     });
 }
 - (void)ktjhook_setImage:(UIImage *)image {
-    if (![self ktj_normalImage] && self.ktj_normalImage!=self.ktj_nightImage) {
-        [self ktj_saveNormalImage:image];
-    }
+    self.ktj_normalImage = image;
     [self ktjhook_setImage:image];
 }
 
 - (void)setKtj_nightImage:(UIImage *)ktj_nightImage {
-    if (ktj_nightImage == self.ktj_nightImage) {
-        return;
-    }
-    
     if ([KTJNightVersion currentStyle] == KTJNightVersionStyleNight) {
-        self.image = ktj_nightImage;
+        [self ktjhook_setImage:ktj_nightImage];
     }
     
     objc_setAssociatedObject(self, @selector(ktj_nightImage), ktj_nightImage, OBJC_ASSOCIATION_RETAIN);
@@ -42,12 +36,8 @@
 }
 
 - (void)setKtj_normalImage:(UIImage *)ktj_normalImage {
-    if (ktj_normalImage == self.ktj_normalImage) {
-        return;
-    }
-    
     if ([KTJNightVersion currentStyle] == KTJNightVersionStyleNormal) {
-        self.image = ktj_normalImage;
+        [self ktjhook_setImage:ktj_normalImage];
     }
     
     [self ktj_saveNormalImage:ktj_normalImage];
@@ -79,7 +69,7 @@
             }
             JGWeak(self);
             void (^changeColor)(void) = ^(void) {
-                weakself.image = image;
+                [weakself ktjhook_setImage:image];
             };
             if (animation) {
                 [UIView animateWithDuration:duration animations:changeColor];

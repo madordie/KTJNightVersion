@@ -21,9 +21,8 @@
     //  切换至夜间模式
     [KTJNightVersion changeToNight];
 #备注
-  根据 https://github.com/Draveness/DKNightVersion.git 进行优化。
-  深深感谢DK的思路。
+  根据 https://github.com/Draveness/DKNightVersion.git 进行强化。
+
+    如果发现任何BUG，请留言。小弟谢过。
   
-  目前至进行小范围测试，并未暴力测试，如果发现问题请留言，谢谢。
-  
-  括弧：其实逻辑挺简单的。。
+  括弧：其实逻辑挺简单的吧哈哈。。
