@@ -13,6 +13,9 @@ typedef NS_ENUM(NSUInteger, KTJNightVersionStyle) {
     KTJNightVersionStyleNight,
 };
 
+/**
+ *  这两个通知将在VC的viewDidDisappear:时移除。viewWillAppear:时注册。
+ */
 extern NSString *KTJNofitionStyleChangeToNightName;
 extern NSString *KTJNofitionStyleChangeToNormalName;
 

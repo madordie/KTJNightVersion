@@ -42,6 +42,7 @@
     [KTJNightVersion changeColor:self.view];
 //    [self.navigationItem.leftBarButtonItem ktj_changeColorWithAnimation:NO duration:0];
 //    [self.navigationItem.rightBarButtonItem ktj_changeColorWithAnimation:NO duration:0];
+    [self.navigationController.navigationBar ktj_changeColorWithAnimation:NO duration:0];
     [self.navigationItem.backBarButtonItem ktj_changeColorWithAnimation:NO duration:0];
     [self.navigationItem.leftBarButtonItems enumerateObjectsUsingBlock:^(UIBarButtonItem *obj, NSUInteger idx, BOOL *stop) {
         if ([obj respondsToSelector:@selector(ktj_changeColorWithAnimation:duration:)]) {
