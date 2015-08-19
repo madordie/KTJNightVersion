@@ -32,7 +32,7 @@
     objc_setAssociatedObject(self, @selector(ktj_nightImage), ktj_nightImage, OBJC_ASSOCIATION_RETAIN);
 }
 - (UIImage *)ktj_nightImage {
-    return objc_getAssociatedObject(self, @selector(ktj_nightImage))?:self.image;
+    return objc_getAssociatedObject(self, @selector(ktj_nightImage))?:self.ktj_normalImage;
 }
 
 - (void)setKtj_normalImage:(UIImage *)ktj_normalImage {

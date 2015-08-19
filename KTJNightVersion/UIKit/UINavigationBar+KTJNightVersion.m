@@ -33,7 +33,7 @@
     objc_setAssociatedObject(self, @selector(ktj_nightBarTintColor), ktj_nightBarTintColor, OBJC_ASSOCIATION_RETAIN);
 }
 - (UIColor *)ktj_nightBarTintColor {
-    return objc_getAssociatedObject(self, @selector(ktj_nightBarTintColor))?:self.barTintColor;
+    return objc_getAssociatedObject(self, @selector(ktj_nightBarTintColor))?:self.ktj_normalBarTintColor;
 }
 - (void)setKtj_normalBarTintColor:(UIColor *)ktj_normalBarTintColor {
     if ([KTJNightVersion currentStyle] == KTJNightVersionStyleNormal) {

@@ -34,7 +34,7 @@
     objc_setAssociatedObject(self, @selector(ktj_nightTitleColor), ktj_nightTitleColor, OBJC_ASSOCIATION_RETAIN);
 }
 - (UIColor *)ktj_nightTitleColor {
-    return objc_getAssociatedObject(self, @selector(ktj_nightTitleColor))?:[self titleColorForState:UIControlStateNormal];
+    return objc_getAssociatedObject(self, @selector(ktj_nightTitleColor))?:self.ktj_normalTitleColor;
 }
 
 - (void)setKtj_normalTitleColor:(UIColor *)ktj_normalTitleColor {

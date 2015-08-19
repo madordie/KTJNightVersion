@@ -33,7 +33,7 @@
     objc_setAssociatedObject(self, @selector(ktj_nightSeparatorColor), ktj_nightSeparatorColor, OBJC_ASSOCIATION_RETAIN);
 }
 - (UIColor *)ktj_nightSeparatorColor {
-    return objc_getAssociatedObject(self, @selector(ktj_nightSeparatorColor))?:self.separatorColor;
+    return objc_getAssociatedObject(self, @selector(ktj_nightSeparatorColor))?:self.ktj_normalSeparatorColor;
 }
 
 - (void)setKtj_normalSeparatorColor:(UIColor *)ktj_normalSeparatorColor {
