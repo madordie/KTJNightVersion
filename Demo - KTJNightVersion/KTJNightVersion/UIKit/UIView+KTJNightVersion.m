@@ -38,7 +38,7 @@
     objc_setAssociatedObject(self, @selector(ktj_nightBackgroudColor), ktj_nightBackgroudColor, OBJC_ASSOCIATION_RETAIN);
 }
 - (UIColor *)ktj_nightBackgroudColor {
-    return objc_getAssociatedObject(self, @selector(ktj_nightBackgroudColor))?:self.backgroundColor;
+    return objc_getAssociatedObject(self, @selector(ktj_nightBackgroudColor))?:self.ktj_normalBackgroudColor;
 }
 
 - (void)setKtj_normalBackgroudColor:(UIColor *)ktj_normalBackgroudColor {
@@ -63,7 +63,7 @@
     objc_setAssociatedObject(self, @selector(ktj_nightTintColor), ktj_nightTintColor, OBJC_ASSOCIATION_RETAIN);
 }
 - (UIColor *)ktj_nightTintColor {
-    return objc_getAssociatedObject(self, @selector(ktj_nightTintColor))?:self.tintColor;
+    return objc_getAssociatedObject(self, @selector(ktj_nightTintColor))?:self.ktj_normalTintColor;
 }
 
 - (void)setKtj_normalTintColor:(UIColor *)ktj_normalTintColor {

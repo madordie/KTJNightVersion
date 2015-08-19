@@ -32,7 +32,7 @@
     objc_setAssociatedObject(self, @selector(ktj_nightTintColor), ktj_nightTintColor, OBJC_ASSOCIATION_RETAIN);
 }
 - (UIColor *)ktj_nightTintColor {
-    return objc_getAssociatedObject(self, @selector(ktj_nightTintColor))?:self.tintColor;
+    return objc_getAssociatedObject(self, @selector(ktj_nightTintColor))?:self.ktj_normalTintColor;
 }
 
 - (void)setKtj_normalTintColor:(UIColor *)ktj_normalTintColor {

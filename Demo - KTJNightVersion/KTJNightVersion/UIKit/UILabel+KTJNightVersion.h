@@ -14,11 +14,6 @@
 @property (nonatomic, strong) UIColor *ktj_nightTextColor;
 @property (nonatomic, strong) UIColor *ktj_normalTextColor;
 
-/**
- *  说明：如果使用NSAttributedString来更改字体颜色
- *      请明确赋值normal、night，并且如果两个模式一样
- *      如：        label.ktj_nightAttributedSText = label.ktj_normalAttributedText;
- */
 @property (nonatomic, strong) NSAttributedString *ktj_normalAttributedText;
 @property (nonatomic, strong) NSAttributedString *ktj_nightAttributedSText;
 

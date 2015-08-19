@@ -89,23 +89,6 @@
         [aString addAttribute:NSFontAttributeName value:[UIFont systemFontOfSize:50] range:NSMakeRange(0, 2)];
         [aString addAttribute:NSForegroundColorAttributeName value:[UIColor greenColor] range:NSMakeRange(0, 2)];
         label.attributedText = aString;
-
-//        label.ktj_nightAttributedSText = aString;
-        /* error: label.ktj_nightAttributedSText = label.attributedText; */
-        
-        /**
-         *  如果不设置ktj_nightAttributedSText，则可能导致夜间模式时NSForegroundColorAttributeName颜色设置失效。
-         *  也就是说你所设置的textColor将覆盖掉你设置的颜色。
-         *      解决办法，可以使用如下方法设置夜间模式的单独字体，当然也可以这样做：label.ktj_nightAttributedSText = aString;
-         *              别懒成这样：label.ktj_nightAttributedSText = label.attributedText;   
-         *              因为你取得当前的不一定是normal。。可能是night..
-         */
-        {
-            NSMutableAttributedString *aString = [[NSMutableAttributedString alloc] initWithString:@"wahaha"];
-            [aString addAttribute:NSFontAttributeName value:[UIFont systemFontOfSize:50] range:NSMakeRange(0, 2)];
-            [aString addAttribute:NSForegroundColorAttributeName value:[UIColor blueColor] range:NSMakeRange(0, 2)];
-            label.ktj_nightAttributedSText = aString;
-        }
     }
 }
 - (void)tryConfigureImageView {

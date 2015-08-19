@@ -45,7 +45,7 @@
     objc_setAssociatedObject(self, @selector(ktj_nightAttributedSText), ktj_nightAttributedSText, OBJC_ASSOCIATION_RETAIN);
 }
 - (NSAttributedString *)ktj_nightAttributedSText {
-    return objc_getAssociatedObject(self, @selector(ktj_nightAttributedSText))?:self.attributedText;
+    return objc_getAssociatedObject(self, @selector(ktj_nightAttributedSText))?:self.ktj_normalAttributedText;
 }
 
 - (void)setKtj_nightTextColor:(UIColor *)ktj_nightTextColor {
@@ -56,7 +56,7 @@
     objc_setAssociatedObject(self, @selector(ktj_nightTextColor), ktj_nightTextColor, OBJC_ASSOCIATION_RETAIN);
 }
 - (UIColor *)ktj_nightTextColor {
-    return objc_getAssociatedObject(self, @selector(ktj_nightTextColor))?:self.textColor;
+    return objc_getAssociatedObject(self, @selector(ktj_nightTextColor))?:self.ktj_normalTextColor;
 }
 
 - (void)setKtj_normalTextColor:(UIColor *)ktj_normalTextColor {
