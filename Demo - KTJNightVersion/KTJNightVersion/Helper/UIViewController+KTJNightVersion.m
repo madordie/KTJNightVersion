@@ -40,6 +40,7 @@
 
 - (void)ktj_changeColor {
     [KTJNightVersion changeColor:self.view];
+    [KTJNightVersion changeColor:self.navigationItem.titleView];
 //    [self.navigationItem.leftBarButtonItem ktj_changeColorWithAnimation:NO duration:0];
 //    [self.navigationItem.rightBarButtonItem ktj_changeColorWithAnimation:NO duration:0];
     [self.navigationController.navigationBar ktj_changeColorWithAnimation:NO duration:0];
@@ -48,11 +49,13 @@
         if ([obj respondsToSelector:@selector(ktj_changeColorWithAnimation:duration:)]) {
             [obj ktj_changeColorWithAnimation:NO duration:0];
         }
+        [KTJNightVersion changeColor:obj.customView];
     }];
     [self.navigationItem.rightBarButtonItems enumerateObjectsUsingBlock:^(UIBarButtonItem *obj, NSUInteger idx, BOOL *stop) {
         if ([obj respondsToSelector:@selector(ktj_changeColorWithAnimation:duration:)]) {
             [obj ktj_changeColorWithAnimation:NO duration:0];
         }
+        [KTJNightVersion changeColor:obj.customView];
     }];
     
 }
