@@ -20,4 +20,10 @@
  */
 @property (nonatomic, strong) UIColor *ktj_normalTitleColor;
 
+@property (nonatomic, strong) UIImage *ktj_normalImage;
+@property (nonatomic, strong) UIImage *ktj_NightImage;
+
+@property (nonatomic, strong) UIImage *ktj_normalBackgroudImage;
+@property (nonatomic, strong) UIImage *ktj_nightBackgroudImage;
+
 @end

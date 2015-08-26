@@ -17,6 +17,8 @@
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         KTJChangeIMP(@selector(setTitleColor:forState:), @selector(ktjhook_setTitleColor:forState:));
+        KTJChangeIMP(@selector(setImage:forState:), @selector(ktjhook_setImage:forState:));
+        KTJChangeIMP(@selector(setBackgroundImage:forState:), @selector(ktjhook_setBackgroudImage:forState:));
     });
 }
 - (void)ktjhook_setTitleColor:(UIColor *)titleColor forState:(UIControlState)state {
@@ -24,6 +26,18 @@
         self.ktj_normalTitleColor = titleColor;
     }
     [self ktjhook_setTitleColor:titleColor forState:state];
+}
+- (void)ktjhook_setImage:(UIImage *)image forState:(UIControlState)state {
+    if (state == UIControlStateNormal) {
+        self.ktj_normalImage = image;
+    }
+    [self ktjhook_setImage:image forState:state];
+}
+- (void)ktjhook_setBackgroudImage:(UIImage *)image forState:(UIControlState)state {
+    if (state == UIControlStateNormal) {
+        self.ktj_normalBackgroudImage = image;
+    }
+    [self ktjhook_setBackgroudImage:image forState:state];
 }
 
 - (void)setKtj_nightTitleColor:(UIColor *)ktj_nightTitleColor {
@@ -51,6 +65,42 @@
     objc_setAssociatedObject(self, @selector(ktj_normalTitleColor), titleColor, OBJC_ASSOCIATION_RETAIN);
 }
 
+- (void)setKtj_normalImage:(UIImage *)ktj_normalImage {
+    if ([KTJNightVersion currentStyle] == KTJNightVersionStyleNormal) {
+        [self ktjhook_setImage:ktj_normalImage forState:UIControlStateNormal];
+    }
+    objc_setAssociatedObject(self, @selector(ktj_normalImage), ktj_normalImage, OBJC_ASSOCIATION_RETAIN);
+}
+- (UIImage *)ktj_normalImage {
+    return objc_getAssociatedObject(self, @selector(ktj_normalImage))?:[self imageForState:UIControlStateNormal];
+}
+- (void)setKtj_NightImage:(UIImage *)ktj_NightImage {
+    if ([KTJNightVersion currentStyle] == KTJNightVersionStyleNight) {
+        [self ktjhook_setImage:ktj_NightImage forState:UIControlStateNormal];
+    }
+    objc_setAssociatedObject(self, @selector(ktj_NightImage), ktj_NightImage, OBJC_ASSOCIATION_RETAIN);
+}
+- (UIImage *)ktj_NightImage {
+    return objc_getAssociatedObject(self, @selector(ktj_NightImage))?:self.ktj_normalImage;
+}
+- (void)setKtj_normalBackgroudImage:(UIImage *)ktj_normalBackgroudImage {
+    if ([KTJNightVersion currentStyle] == KTJNightVersionStyleNormal) {
+        [self ktjhook_setBackgroudImage:ktj_normalBackgroudImage forState:UIControlStateNormal];
+    }
+    objc_setAssociatedObject(self, @selector(ktj_normalBackgroudImage), ktj_normalBackgroudImage, OBJC_ASSOCIATION_RETAIN);
+}
+- (UIImage *)ktj_normalBackgroudImage {
+    return objc_getAssociatedObject(self, @selector(ktj_normalBackgroudImage))?:[self backgroundImageForState:UIControlStateNormal];
+}
+- (void)setKtj_nightBackgroudImage:(UIImage *)ktj_nightBackgroudImage {
+    if ([KTJNightVersion currentStyle] == KTJNightVersionStyleNight) {
+        [self ktjhook_setBackgroudImage:ktj_nightBackgroudImage forState:UIControlStateNormal];
+    }
+    objc_setAssociatedObject(self, @selector(ktj_nightBackgroudImage), ktj_nightBackgroudImage, OBJC_ASSOCIATION_RETAIN);
+}
+- (UIImage *)ktj_nightBackgroudImage {
+    return objc_getAssociatedObject(self, @selector(ktj_nightBackgroudImage))?:self.ktj_normalBackgroudImage;
+}
 
 - (BOOL)ktj_changeColorWithAnimation:(BOOL)animation duration:(CGFloat)duration {
     if ([super respondsToSelector:@selector(ktj_changeColorWithAnimation:duration:)]) {

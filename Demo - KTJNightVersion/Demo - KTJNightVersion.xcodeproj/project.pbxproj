@@ -20,6 +20,7 @@
 		324E8D5E1B73443A009842AB /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 324E8D5C1B73443A009842AB /* RootViewController.m */; };
 		324E8D621B73471A009842AB /* 02.png in Resources */ = {isa = PBXBuildFile; fileRef = 324E8D601B73471A009842AB /* 02.png */; };
 		324E8D631B73471A009842AB /* 01.png in Resources */ = {isa = PBXBuildFile; fileRef = 324E8D611B73471A009842AB /* 01.png */; };
+		328C7FA81B8DAD2300DAB5AB /* CALayer+KTJNightVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 328C7FA71B8DAD2300DAB5AB /* CALayer+KTJNightVersion.m */; };
 		32C8A6DF1B72209700C9B285 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C8A6DE1B72209700C9B285 /* main.m */; };
 		32C8A6E21B72209700C9B285 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C8A6E11B72209700C9B285 /* AppDelegate.m */; };
 		32C8A6E41B72209700C9B285 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32C8A6E31B72209700C9B285 /* Images.xcassets */; };
@@ -63,6 +64,8 @@
 		324E8D5C1B73443A009842AB /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		324E8D601B73471A009842AB /* 02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02.png; sourceTree = "<group>"; };
 		324E8D611B73471A009842AB /* 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01.png; sourceTree = "<group>"; };
+		328C7FA61B8DAD2300DAB5AB /* CALayer+KTJNightVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+KTJNightVersion.h"; sourceTree = "<group>"; };
+		328C7FA71B8DAD2300DAB5AB /* CALayer+KTJNightVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+KTJNightVersion.m"; sourceTree = "<group>"; };
 		3298EB031B72FDC500A9A16D /* KTJNightVersionMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTJNightVersionMacro.h; sourceTree = "<group>"; };
 		32C8A6D91B72209700C9B285 /* Demo - KTJNightVersion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Demo - KTJNightVersion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32C8A6DD1B72209700C9B285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -132,6 +135,8 @@
 				323DAD911B7290CC004FDE15 /* UITableView+KTJNightVersion.m */,
 				323DAD921B7290CC004FDE15 /* UIView+KTJNightVersion.h */,
 				323DAD931B7290CC004FDE15 /* UIView+KTJNightVersion.m */,
+				328C7FA61B8DAD2300DAB5AB /* CALayer+KTJNightVersion.h */,
+				328C7FA71B8DAD2300DAB5AB /* CALayer+KTJNightVersion.m */,
 				3298EB031B72FDC500A9A16D /* KTJNightVersionMacro.h */,
 			);
 			path = UIKit;
@@ -314,6 +319,7 @@
 				324E8D5E1B73443A009842AB /* RootViewController.m in Sources */,
 				323DAD991B7290CC004FDE15 /* UILabel+KTJNightVersion.m in Sources */,
 				32C8A6DF1B72209700C9B285 /* main.m in Sources */,
+				328C7FA81B8DAD2300DAB5AB /* CALayer+KTJNightVersion.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

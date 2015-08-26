@@ -88,6 +88,8 @@ extern NSString *KTJNofitionStyleChangeToNormalName;
 @optional
 - (NSArray *)subviews;
 
+- (CALayer *)layer;
+
 @end
 
 

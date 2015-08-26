@@ -18,6 +18,8 @@
 #import "UIBarButtonItem+KTJNightVersion.h"
 #import "UINavigationBar+KTJNightVersion.h"
 
+#import "CALayer+KTJNightVersion.h"
+
 #endif
 
 

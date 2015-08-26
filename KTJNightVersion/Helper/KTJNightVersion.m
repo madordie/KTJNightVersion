@@ -90,28 +90,32 @@ static CGFloat const KTJNightVersionAnimationDuration = 0.3f;
 }
 
 + (void)changeColor:(id <KTJNightVersionChangeColorProtocol>)object {
-    if ([object respondsToSelector:@selector(ktj_changeColorWithAnimation:duration:)]) {
-        [object ktj_changeColorWithAnimation:NO duration:0];
-    }
-    if ([object respondsToSelector:@selector(subviews)]) {
-        if (![object subviews]) {
-            // Basic case, do nothing.
-            return;
-        } else {
-            for (id subview in [object subviews]) {
-                // recursice darken all the subviews of current view.
-                [self changeColor:subview];
-                if ([subview respondsToSelector:@selector(ktj_changeColorWithAnimation:duration:)]) {
-                    [subview ktj_changeColorWithAnimation:NO duration:0];
-                }
-            }
-        }
-    }
+    [self changeColor:object withDuration:0];
+//    if ([object respondsToSelector:@selector(ktj_changeColorWithAnimation:duration:)]) {
+//        [object ktj_changeColorWithAnimation:NO duration:0];
+//    }
+//    if ([object respondsToSelector:@selector(subviews)]) {
+//        if (![object subviews]) {
+//            // Basic case, do nothing.
+//            return;
+//        } else {
+//            for (id subview in [object subviews]) {
+//                // recursice darken all the subviews of current view.
+//                [self changeColor:subview];
+//                if ([subview respondsToSelector:@selector(ktj_changeColorWithAnimation:duration:)]) {
+//                    [subview ktj_changeColorWithAnimation:NO duration:0];
+//                }
+//            }
+//        }
+//    }
 }
 
 + (void)changeColor:(id <KTJNightVersionChangeColorProtocol>)object withDuration:(CGFloat)duration {
+
+    BOOL animation = duration;
+
     if ([object respondsToSelector:@selector(ktj_changeColorWithAnimation:duration:)]) {
-        [object ktj_changeColorWithAnimation:YES duration:duration];
+        [object ktj_changeColorWithAnimation:animation duration:duration];
     }
     if ([object respondsToSelector:@selector(subviews)]) {
         if (![object subviews]) {
@@ -122,14 +126,33 @@ static CGFloat const KTJNightVersionAnimationDuration = 0.3f;
                 // recursice darken all the subviews of current view.
                 [self changeColor:subview withDuration:duration];
                 if ([subview respondsToSelector:@selector(ktj_changeColorWithAnimation:duration:)]) {
-                    [subview ktj_changeColorWithAnimation:YES duration:duration];
+                    [subview ktj_changeColorWithAnimation:animation duration:duration];
                 }
             }
         }
     }
+    
+    if ([object respondsToSelector:@selector(layer)]) {
+        [self changeCALayer:[object layer] withDuration:duration];
+    }
 }
 
-
++ (void)changeCALayer:(CALayer *)layer withDuration:(CGFloat)duration {
+    if (![layer isKindOfClass:[CALayer class]]) {
+        return;
+    }
+    BOOL animation = duration;
+    
+    if ([layer respondsToSelector:@selector(ktj_changeColorWithAnimation:duration:)]) {
+        [layer ktj_changeColorWithAnimation:animation duration:duration];
+    }
+    [layer.sublayers enumerateObjectsUsingBlock:^(CALayer *obj, NSUInteger idx, BOOL *stop) {
+        [self changeColor:obj withDuration:duration];
+        if ([obj respondsToSelector:@selector(ktj_changeColorWithAnimation:duration:)]) {
+            [obj ktj_changeColorWithAnimation:animation duration:duration];
+        }
+    }];
+}
 
 + (void)addClassToSet:(Class)klass {
     [[self shared].respondClasseses addObject:NSStringFromClass(klass)];

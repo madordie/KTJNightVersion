@@ -64,6 +64,11 @@
     cell.ktj_nightBackgroudColor = [UIColor grayColor];
     cell.ktj_normalBackgroudColor = [UIColor whiteColor];
 
+    cell.textLabel.layer.borderColor = [UIColor redColor].CGColor;
+    cell.textLabel.layer.ktj_nightBorderColor = [UIColor greenColor].CGColor;
+    cell.textLabel.layer.borderWidth = 0.6;
+    [KTJNightVersion addClassToSet:cell.textLabel.layer.class];
+    
     [KTJNightVersion addClassToSet:cell.textLabel.class];
     //  别问我为啥下面注册了UILabel 此处还要注册。。我会告诉你自己po一下看看这个类竟然是UITableViewLabel
     /*

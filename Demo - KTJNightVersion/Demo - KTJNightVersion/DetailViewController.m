@@ -68,6 +68,8 @@
         UIView *view = self.showView;
         view.backgroundColor = [UIColor grayColor];
         view.ktj_nightBackgroudColor = [UIColor whiteColor];
+        
+        CALayer *layer = view.layer.superlayer;
     }
 }
 - (void)tryConfigButton {
